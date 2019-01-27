@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https.zombodotcom.github.io/reactjs/precache-manifest.d990ca219fa56c374106f5d8054ececb.js"
+  "/jtc372/website/precache-manifest.a9f43f34e9e4a1660c087546f072135a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https.zombodotcom.github.io/reactjs/index.html", {
+workbox.routing.registerNavigationRoute("/jtc372/website/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
